@@ -1,0 +1,58 @@
+h1 {
+  color: red;
+}
+
+p,
+li {
+  color: green;
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+  list-style-type: square;
+}
+
+.special {
+  list-style-type: armenian;
+  color: blueviolet;
+}
+
+li em {
+  color: rebeccapurple;
+}
+
+h1 + p {
+  font-size: 200%;
+}
+
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color: aqua;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body h1 + p .special {
+  color: yellow;
+  background-color: black;
+  padding: 5px;
+}
+
+p::first-line {
+  color: blue;
+}
+
+body {
+  background-color: pink;
+}
+
+@media (min-width: 50em) {
+  body {
+    background-color: blue;
+  }
+}
+
